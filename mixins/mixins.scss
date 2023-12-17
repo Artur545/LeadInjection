@@ -1,0 +1,31 @@
+@import '../variables/variables.scss';
+
+@mixin Roboto_Reg ($fs, $lh) {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: 400;
+}
+
+@mixin Roboto_Med ($fs, $lh) {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: 500;
+}
+
+@mixin Roboto_Bld ($fs, $lh) {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: 700;
+}
+
+@mixin flex ($fd, $ai, $jc, $gp) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $fd;
+    align-items: $ai;
+    justify-content: $jc;
+    gap: $gp;
+}
